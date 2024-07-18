@@ -1,0 +1,44 @@
+.links {
+  position: relative;
+  height: calc(100% - 4rem - 12px - 8.9rem);
+  color: var(--gray-color);
+}
+
+.current {
+  transform: rotate(90deg);
+  position: absolute;
+  overflow: hidden;
+  top: 4rem;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  top: 7rem;
+  left: 2rem;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+.nav li {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+}
+
+.nav li:hover,
+.active {
+  color: var(--white-color);
+  text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+}

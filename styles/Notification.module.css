@@ -1,0 +1,64 @@
+@keyframes shrink {
+  100% {
+    width: 0;
+  }
+}
+
+.notification {
+  padding: 1rem 3rem 1rem 2rem;
+  color: var(--white-color);
+  font-size: 0.8rem;
+  position: fixed;
+  top: 2rem;
+  right: 6.5rem;
+  box-shadow: var(--default-shadow);
+  background-color: var(--dark4);
+  width: min(20rem, 85%);
+  z-index: 9999;
+}
+
+.top_border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--accent-color);
+  animation: shrink ease-in-out forwards;
+  animation-duration: 3s;
+  z-index: 9999;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  color: var(--gray-color);
+  transition: 0.3s ease-in-out;
+}
+
+.close:hover {
+  color: var(--white-color);
+  text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+  transform: scale(1.1);
+}
+
+.success {
+  background-color: rgb(7, 63, 7);
+}
+
+.error {
+  background-color: rgb(133, 0, 0);
+}
+
+.warning {
+  background-color: rgb(156, 102, 0);
+}
+
+@media (max-width: 900px) {
+  .notification {
+    top: 5rem;
+    right: 1rem;
+  }
+}
