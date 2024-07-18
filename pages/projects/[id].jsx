@@ -73,7 +73,7 @@ const Project = ({ project }) => {
 
         <motion.div variants={fadeInDown}>
           <div target="_blank" rel="noreferrer">
-            <FaGithub />
+            {/* <FaGithub /> */}
           </div>
           <a href={project.liveLink} target="_blank" rel="noreferrer">
             <FaEye />

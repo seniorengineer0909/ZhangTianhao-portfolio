@@ -16,7 +16,7 @@ const SideBar = () => {
       </div>
       <Avatar />
       <SideDetails />
-      <SideFooter />
+      {/* <SideFooter /> */}
     </div>
   );
 };
