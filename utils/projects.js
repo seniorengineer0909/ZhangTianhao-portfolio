@@ -30,7 +30,7 @@ const projects = [
       'A classic pomodoro timer, with extra functionality like changing the accent color and fonts.',
     langs: ['html', 'css', 'javaScript'],
     gitLink: 'https://github.com/rachidelaid/pomodoro-vanilla',
-    liveLink: 'https://rachidelaid.github.io/pomodoro-vanilla',
+    // liveLink: 'https://rachidelaid.github.io/pomodoro-vanilla',
   },
   {
     id: 4,
