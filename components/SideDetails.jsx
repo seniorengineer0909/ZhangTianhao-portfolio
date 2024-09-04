@@ -25,7 +25,7 @@ const SideDetails = () => {
         </li>
         <li>
           <h5>City:</h5>
-          <span>Shenyang</span>
+          <span>Beijing</span>
         </li>
         <li>
           <h5>Age:</h5>

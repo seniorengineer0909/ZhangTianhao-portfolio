@@ -17,7 +17,7 @@ const TopCard = ({ center }) => {
       exit="hidden"
       style={{paddingBottom: "200px"}}
     >
-      <h1>Zhang Tian</h1>
+      <h1>Zhang TianHao</h1>
       <TextRotate />
       
     </motion.div>

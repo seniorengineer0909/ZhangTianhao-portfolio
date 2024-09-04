@@ -19,7 +19,7 @@ const Avatar = () => {
           <small className={styles.tooltip}>available for hire</small>
         </div>
       </div>
-      <h5>Zhang Tian</h5>
+      <h5>Zhang TianHao</h5>
       <small>Full-stack Developer</small>
     </div>
   );
