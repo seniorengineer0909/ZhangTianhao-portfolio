@@ -30,37 +30,30 @@ const RecommendationCard = ({ card }) => {
 const Recommendations = () => {
   const recommendations = [
     {
-      name: 'Backend Developer',
+      name: 'Senior Software Engineer',
       image:
         'https://media-exp1.licdn.com/dms/image/C4E03AQENQAcnn1NuXg/profile-displayphoto-shrink_100_100/0/1645732120285?e=1661990400&v=beta&t=bLtJx5mYo482KI9b9Ki1Pw5Zqo9cnfdEd97USSCI8Ko',
       title:
-        'Hopper | Aug 2022 - May 2024 (1 year, 9 months)',
-      description: `Engineered high-performance RESTful APIs with Node.js and Express, elevating flight booking experiences.
-Crafted robust data processing pipelines utilizing Kafka and Spark, boosting real-time flight data analytics.
-Developed scalable microservices architecture leveraging Docker and Kubernetes.
-Fortified API security and ensured GDPR compliance using OAuth 2.0 authentication protocols.
-Orchestrated CI/CD workflows with Jenkins and AWS, streamlining automated deployment processes.`,
+        'Ingram Micro | May 2023 - Present',
+      description: `•	Constructed a vendor command center, driving $30 million in measurable outcomes.
+•	Orchestrated regular code review sessions and knowledge-sharing workshops, resulting in a 40% improvement in team members' coding standards and a 50% reduction in onboarding time for new developers.`,
     },
     {
-      name: 'Backend Developer',
+      name: 'Senior Frontend Engineer',
       image:
         'https://media-exp1.licdn.com/dms/image/C4E03AQE7baHB89RI6A/profile-displayphoto-shrink_100_100/0/1644038619161?e=1661990400&v=beta&t=qNZVtxRdDpWz8wTh8SoGjMYoarVJWhQew2Pn2E4gsBo',
-      title: 'Tyk Technologies | Jul 2019 - Nov 2021 (2 years, 3 months)',
-      description: `Tyk Technologies is a company specializing in API management and service orchestration solutions.
-Expertly developed and maintained high-performance RESTful APIs leveraging Node.js and Go.
-Skillfully managed API lifecycle with Tyk API Gateway for enhanced security and control.
-Optimized MySQL and MongoDB database operations, designing efficient schemas for scalability.
-Implemented secure authentication and authorization protocols using OAuth 2.0 and JWT.`,
+      title: 'Dapper Labs | May 2022 - Apr 2023',
+      description: `•	Architected and implemented innovative NFT marketplace solutions for industry-leading platforms Genius and NBATopShot, resulting in a 3x boost in revenue and a 40% increase in active user base.
+•	Championed the creation of modular design system with 30+ reusable components, leading to a 25% increase in design consistency and a 20% boost in development efficiency.`,
     },
     {
-      name: 'Frontend Developer',
+      name: 'Senior Frontend Engineer',
       image:
         'https://media-exp1.licdn.com/dms/image/C5603AQHUASERmYe-WA/profile-displayphoto-shrink_100_100/0/1645558822023?e=1661990400&v=beta&t=spJsLnK25yLoqJ0EubnlR2y4WJdgAAx48b8bmDL6azQ',
       title:
-        'Outliant | Sep 2018 - Aug 2019 (11 months, 2 days)',
-      description: `Spearheaded frontend development at Outliant, a global, fully remote company specializing in design, development, and digital marketing services.
-Championed User Experience ՄUXՅ and User Interface ՄUIՅ design, ensuring intuitive and aesthetically pleasing interfaces.
-Directed the discovery phase for medium to large-scale projects, delivering comprehensive high-level design strategies.`,
+        'Binance | Mar 2021 - Aug 2022',
+      description: `•	Established the implementation of automated data refresh processes, decreasing data staleness by 50% and enabling the team to react swiftly to market shifts, leading to a 25% increase in market share.
+•	Executed the deployment of unit and end-to-end tests for a robust codebase, which led to a 50% decrease in post-release.`,
     },
   ];
 
